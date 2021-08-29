@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  align-items: center;
+  background-color:  sandybrown;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 160px;
+  width: 100%;
+}
+
+.containers {
+  display: flex;
+  flex-flow: column;
+  height: 50%;
+  justify-content: center;
+}
+
+.slogan-logo {
+  width: 500px;
+}
+
+.inputs {
+  width: 396px;
+  height: 396px;
+  justify-content: space-between;
+}
+
+#form-sec {
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 300px;
+}
+
+hr {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+}
