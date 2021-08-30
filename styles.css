@@ -1,11 +1,12 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 main {
   align-items: center;
-  background-color:  sandybrown;
+  background-color:  #f0f2f5;
   display: flex;
   justify-content: space-evenly;
   height: 100vh;
@@ -34,9 +35,42 @@ main {
 }
 
 .inputs {
-  width: 396px;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px rgb(167, 164, 164);
   height: 396px;
   justify-content: space-between;
+  padding: 15px;
+  width: 396px;
+}
+
+.input {
+  border: 1px solid rgba(189, 189, 189, 0.719);
+  border-radius: 5px;
+  height: 22px;
+  padding: 8px 10px;
+}
+/* 
+.input:focus {
+  border-radius: 5px;
+  outline: 1px solid rgb(19, 19, 226);
+} */
+
+.buttons {
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 15pt;
+  font-weight: 550;
+  padding: 10px;
+}
+
+.login-btn {
+  background: #1877f2;
+  
 }
 
 #form-sec {
@@ -55,6 +89,22 @@ hr {
   width: 100%;
 }
 
+.forgot-password {
+  color: #1877f2;
+  cursor: pointer;
+}
+.new-account-btn {
+  background: #42b72a;
+}
+
+/* .new-account-btn:hover {
+  cursor: pointer;
+} */
+
 .btn {
   display: inline-block;
+}
+
+span {
+  display: block;
 }
